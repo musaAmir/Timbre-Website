@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="Give every keystroke a little character. Timbre brings real mechanical keyboard sounds to your Mac, with a sound that feels like you.">
+  <title>Timbre — A little sound. A lot of feeling.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <svg class="svg-defs" aria-hidden="true"><defs>
+    <symbol id="mark" viewBox="0 0 32 32"><rect x="14.5" y="12" width="3" height="8" rx="1.5" fill="currentColor"/><g fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"><path d="M10 10Q5 16 10 22M22 10Q27 16 22 22M5 5Q-3 16 5 27M27 5Q35 16 27 27"/></g></symbol>
+    <symbol id="arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="apple" viewBox="0 0 24 24"><path fill="currentColor" d="M16.4 1.7c.2 1.5-.4 2.9-1.2 3.8-.9 1-2.3 1.7-3.7 1.6-.2-1.4.5-2.8 1.3-3.7.9-1 2.4-1.7 3.6-1.7Zm3.8 15.8c-.5 1.2-.8 1.7-1.5 2.8-1 1.5-2.4 3.3-4.2 3.3-1.5 0-1.9-1-3.9-1-2 0-2.5 1-3.9 1-1.7 0-3-1.6-4-3.1C-.1 16.3-.9 10.5 1.3 8c1.5-1.7 3.5-1.9 5.2-1.9 1.6 0 2.7 1 4.1 1 1.3 0 2.1-1 4.1-1 1.5 0 3.1.8 4.3 2.1-3.8 2.1-3.2 7.5 1.2 9.3Z" transform="translate(2 0) scale(.85)"/></symbol>
+    <symbol id="speaker" viewBox="0 0 24 24"><path d="m11 5-5 4H3v6h3l5 4V5Zm4 4a5 5 0 0 1 0 6m3-9a9 9 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs></svg>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#" aria-label="Timbre home"><svg><use href="#mark"/></svg>timbre<span class="wordmark-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#sound">The sound</a><a href="#app">The app</a><a href="#questions">Good to know</a></nav>
+    <button class="button button-small button-dark" data-download>Get Timbre <svg><use href="#arrow"/></svg></button>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-spark">✳</span> A little joy, every keystroke</p>
+        <h1 id="hero-title">A little sound.<br><em>A lot of feeling.</em></h1>
+        <p class="hero-description">Turn everyday typing into something you look forward to. Real mechanical keyboard sounds, right on your Mac.</p>
+        <div class="hero-actions"><button class="button button-dark" data-download><svg class="apple-icon"><use href="#apple"/></svg>Get Timbre for Mac</button><a class="text-link" href="#sound">Give it a listen <span>↘</span></a></div>
+        <p class="compatibility">macOS 14+ <span>·</span> Apple silicon & Intel</p>
+      </div>
+      <div class="hero-visual">
+        <div class="keyboard-orbit" aria-hidden="true"></div>
+        <div class="keyboard-caption"><span class="live-dot"></span> A sound that feels like you.</div>
+        <div class="keyboard-angle"><div id="keyboard" class="keyboard" aria-label="Interactive keyboard — click a key to hear its recording"></div></div>
+        <div class="keyboard-note"><span class="note-arrow">↖</span> Go on. Press a key.</div>
+        <div class="object-label"><span>THE EVERYDAY, RE-TUNED</span><span>01 — TIMBRE</span></div>
+      </div>
+    </section>
+    <section class="sound-section wrap" id="sound" aria-labelledby="sound-title">
+      <div class="section-kicker"><span>THE LISTENING ROOM</span><span>REAL RECORDINGS. REAL CHARACTER.</span></div>
+      <div class="sound-panel">
+        <div class="sound-intro"><h2 id="sound-title">Find your kind of click.</h2><p>Soft and mellow. Crisp and clicky.<br>Try a few. See what feels right.</p></div>
+        <div class="sound-playground">
+          <div class="profile-options" role="group" aria-label="Keyboard sound profile">
+            <button class="profile active" data-profile="cream" aria-pressed="true"><span class="switch-swatch cream"></span><span><strong>NK Cream</strong><small>Smooth & rounded</small></span><span class="profile-check">✓</span></button>
+            <button class="profile" data-profile="brown" aria-pressed="false"><span class="switch-swatch brown"></span><span><strong>Cherry MX Brown</strong><small>Warm & tactile</small></span><span class="profile-check">✓</span></button>
+            <button class="profile" data-profile="blue" aria-pressed="false"><span class="switch-swatch blue"></span><span><strong>Cherry MX Blue</strong><small>Crisp & clicky</small></span><span class="profile-check">✓</span></button>
+          </div>
+          <div class="typing-area"><textarea id="typing-demo" rows="2" aria-label="Type to try the keyboard sounds" placeholder="The sound of a good idea…" autocomplete="off" autocapitalize="off" spellcheck="false"></textarea><span class="typing-hint">CLICK HERE & TYPE ANYTHING</span></div>
+          <div class="demo-controls"><button id="sound-toggle" class="sound-toggle" aria-pressed="true"><svg><use href="#speaker"/></svg><span>Sound on</span></button><label class="volume-control"><span class="sr-only">Demo volume</span><input id="demo-volume" type="range" min="0" max="100" value="55" aria-label="Demo volume"></label><span id="audio-status" role="status">Headphones make it even better.</span></div>
+        </div>
+      </div>
+      <p class="demo-footnote">A small taste of Timbre. The Mac app brings these sounds to all your apps.</p>
+    </section>
+    <section class="app-section" id="app" aria-labelledby="app-title">
+      <div class="wrap">
+        <div class="app-heading"><div><p class="eyebrow">Made to feel at home</p><h2 id="app-title">Your Mac.<br><em>With a little more soul.</em></h2></div><p>Lives quietly in your menu bar.<br>Ready when inspiration strikes.<br>Out of the way when it doesn’t.</p></div>
+        <div class="studio-frame"><div class="studio-glow"></div><img src="assets/timbre-studio.jpg" width="1280" height="800" alt="Timbre's native dark Mac app, with a sculpted keyboard, sound profiles, volume, and a two-dimensional sound character pad." loading="lazy"><div class="studio-caption"><span class="live-dot"></span> Thoughtfully native. Through and through.</div></div>
+        <div class="feature-columns">
+          <article><span class="feature-number">01 / THE FEEL</span><h3>Make it your sound.</h3><p>Warmer or brighter. More thock or more clack. Shape your recordings with a simple, two-dimensional sound pad.</p></article>
+          <article><span class="feature-number">02 / THE COLLECTION</span><h3>A switch for every mood.</h3><p>Seven keyboards to start with. Download more from the library, or bring along your favorite Mechvibes sound packs.</p></article>
+          <article><span class="feature-number">03 / THE LITTLE THINGS</span><h3>Everything, within reach.</h3><p>Preview switches, adjust the volume, or take a quiet moment. All from the menu bar, with shortcuts you can make your own.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="details-section wrap" aria-label="Built with care">
+      <div class="detail-title"><svg><use href="#mark"/></svg><h2>Good sound.<br>Nothing in the way.</h2></div>
+      <div class="detail-list"><div><span class="detail-icon">↳</span><h3>Recorded, not synthesized.</h3><p>Real mechanical switches. Distinct recordings for keys like Space and Return, with every pack’s original character.</p></div><div><span class="detail-icon">⌘</span><h3>A proper little Mac app.</h3><p>Built natively in Swift. A familiar home in your menu bar, with light and dark appearances that belong on your Mac.</p></div><div><span class="detail-icon">◌</span><h3>Quiet means quiet.</h3><p>Switch Timbre off and keyboard monitoring and the audio engine stop. Your typing stays on your Mac.</p></div></div>
+    </section>
+    <section class="faq-section wrap" id="questions" aria-labelledby="faq-title"><div><p class="eyebrow">A few good questions</p><h2 id="faq-title">Before you<br><em>make some noise.</em></h2></div><div class="faq-list">
+      <details><summary>Will it work on my Mac?<span>+</span></summary><p>Timbre runs on macOS 14 Sonoma or later, on both Apple silicon and Intel Macs. Enable Input Monitoring when prompted so it can play sounds while you type in other apps.</p></details>
+      <details><summary>How do I get Timbre?<span>+</span></summary><p>The current version is available from our private GitHub repository. You’ll need a GitHub account with access. Download the Mac ZIP, unzip it, and move Timbre to Applications. <button class="inline-link" data-download>See download details →</button></p></details>
+      <details><summary>Can I add my own sound packs?<span>+</span></summary><p>Yes. Import Mechvibes sound packs, or browse the Switch Library inside Timbre and download only the keyboards you want. Seven profiles are already included.</p></details>
+      <details><summary>Does Timbre record what I type?<span>+</span></summary><p>No. Timbre uses key events to play matching sounds locally. It doesn’t store or send your typed text. Network access is used when you choose to download a sound pack.</p></details>
+      <details><summary>Are these the same sounds as the app?<span>+</span></summary><p>Yes. This demo uses real NK Cream, Cherry MX Brown, and Cherry MX Blue recordings from the same Mechvibes packs included in Timbre. The app adds sound shaping, optional spatial audio, and more profiles. <a href="assets/audio/README.txt" target="_blank" rel="noopener">Recording credits ↗</a></p></details>
+    </div></section>
+    <section class="closing wrap"><div class="closing-mark"><svg><use href="#mark"/></svg></div><p class="eyebrow">Make the everyday a little better</p><h2>Happy fingers.<br><em>Happy ears.</em></h2><button class="button button-dark" data-download><svg class="apple-icon"><use href="#apple"/></svg>Get Timbre for Mac<svg><use href="#arrow"/></svg></button><p class="compatibility">A little companion for your Mac.</p></section>
+  </main>
+  <footer class="site-footer wrap"><a class="wordmark" href="#"><svg><use href="#mark"/></svg>timbre<span class="wordmark-dot">.</span></a><span>Made for the love of typing.</span><div><button class="footer-link" data-dialog="privacy-dialog">Privacy</button><a href="assets/audio/README.txt" target="_blank" rel="noopener">Sound credits ↗</a><a href="https://github.com/musaAmir/Timbre" target="_blank" rel="noopener">GitHub ↗</a></div><small>© 2026 Timbre</small></footer>
+  <dialog id="download-dialog" aria-labelledby="download-title"><button class="dialog-close" aria-label="Close download details">×</button><div class="dialog-brand"><svg><use href="#mark"/></svg></div><p class="eyebrow">YOUR NEXT FAVORITE LITTLE APP</p><h2 id="download-title">Meet your new<br>typing companion.</h2><p>Timbre <strong>v0.4.6</strong> · macOS 14+<br>One download for Apple silicon and Intel.</p><div class="download-notice"><strong>Available through GitHub</strong><p>The current release is in a private repository. Sign in with an account that has access to download it.</p></div><a class="button button-dark" href="https://github.com/musaAmir/Timbre/releases/tag/v0.4.6" target="_blank" rel="noopener">Open GitHub release<svg><use href="#arrow"/></svg></a><p class="dialog-small">Unzip, move to Applications, and enable Input Monitoring when prompted. This build is not notarized. <a href="https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unknown-developer-mh40616/mac" target="_blank" rel="noopener">First-launch help ↗</a></p></dialog>
+  <dialog id="privacy-dialog" aria-labelledby="privacy-title"><button class="dialog-close" aria-label="Close privacy details">×</button><p class="eyebrow">SIMPLY LOCAL</p><h2 id="privacy-title">Your words are yours.</h2><p>The website’s typing demo plays audio in your browser. It doesn’t save or send what you type. There are no analytics or advertising trackers added to this page.</p><p>The Timbre Mac app processes keyboard events locally to play sounds. It doesn’t store typed text. Downloading an extra sound pack requires a network connection.</p><p class="dialog-small">This website is hosted on ChatGPT Sites. GitHub downloads and external links are subject to those services’ own privacy policies.</p></dialog>
+</body>
+</html>

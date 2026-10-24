@@ -1,0 +1,1232 @@
+{
+  "sampleRate": 32000,
+  "profiles": {
+    "cream": {
+      "file": "cream.wav",
+      "keys": {
+        "KeyA": {
+          "offset": 0.0,
+          "duration": 0.1846875
+        },
+        "KeyS": {
+          "offset": 0.1946875,
+          "duration": 0.21878125
+        },
+        "KeyD": {
+          "offset": 0.42346875,
+          "duration": 0.22640625
+        },
+        "KeyF": {
+          "offset": 0.659875,
+          "duration": 0.2220625
+        },
+        "KeyH": {
+          "offset": 0.8919375,
+          "duration": 0.190125
+        },
+        "KeyG": {
+          "offset": 1.0920625,
+          "duration": 0.209
+        },
+        "KeyZ": {
+          "offset": 1.3110625,
+          "duration": 0.2031875
+        },
+        "KeyX": {
+          "offset": 1.52425,
+          "duration": 0.2554375
+        },
+        "KeyC": {
+          "offset": 1.7896875,
+          "duration": 0.21625
+        },
+        "KeyV": {
+          "offset": 2.0159375,
+          "duration": 0.19303125
+        },
+        "KeyB": {
+          "offset": 2.21896875,
+          "duration": 0.198125
+        },
+        "KeyQ": {
+          "offset": 2.42709375,
+          "duration": 0.20609375
+        },
+        "KeyW": {
+          "offset": 2.6431875,
+          "duration": 0.23221875
+        },
+        "KeyE": {
+          "offset": 2.88540625,
+          "duration": 0.201
+        },
+        "KeyR": {
+          "offset": 3.09640625,
+          "duration": 0.2438125
+        },
+        "KeyY": {
+          "offset": 3.35021875,
+          "duration": 0.20025
+        },
+        "KeyT": {
+          "offset": 3.56046875,
+          "duration": 0.2438125
+        },
+        "Digit1": {
+          "offset": 2.6431875,
+          "duration": 0.23221875
+        },
+        "Digit2": {
+          "offset": 2.88540625,
+          "duration": 0.201
+        },
+        "Digit3": {
+          "offset": 2.88540625,
+          "duration": 0.201
+        },
+        "Digit4": {
+          "offset": 3.09640625,
+          "duration": 0.2438125
+        },
+        "Digit6": {
+          "offset": 3.35021875,
+          "duration": 0.20025
+        },
+        "Digit5": {
+          "offset": 3.56046875,
+          "duration": 0.2438125
+        },
+        "Equal": {
+          "offset": 3.81428125,
+          "duration": 0.23221875
+        },
+        "Digit9": {
+          "offset": 4.0565,
+          "duration": 0.23803125
+        },
+        "Digit7": {
+          "offset": 4.30453125,
+          "duration": 0.22640625
+        },
+        "Minus": {
+          "offset": 4.5409375,
+          "duration": 0.23803125
+        },
+        "Digit8": {
+          "offset": 4.78896875,
+          "duration": 0.223
+        },
+        "Digit0": {
+          "offset": 5.02196875,
+          "duration": 0.23221875
+        },
+        "BracketRight": {
+          "offset": 3.81428125,
+          "duration": 0.23221875
+        },
+        "KeyO": {
+          "offset": 4.0565,
+          "duration": 0.23803125
+        },
+        "KeyU": {
+          "offset": 4.30453125,
+          "duration": 0.22640625
+        },
+        "BracketLeft": {
+          "offset": 4.5409375,
+          "duration": 0.23803125
+        },
+        "KeyI": {
+          "offset": 4.78896875,
+          "duration": 0.223
+        },
+        "KeyP": {
+          "offset": 5.02196875,
+          "duration": 0.23221875
+        },
+        "Enter": {
+          "offset": 5.2641875,
+          "duration": 0.23365625
+        },
+        "KeyL": {
+          "offset": 5.50784375,
+          "duration": 0.22859375
+        },
+        "KeyJ": {
+          "offset": 5.7464375,
+          "duration": 0.23221875
+        },
+        "Quote": {
+          "offset": 3.81428125,
+          "duration": 0.23221875
+        },
+        "KeyK": {
+          "offset": 5.98865625,
+          "duration": 0.2148125
+        },
+        "Semicolon": {
+          "offset": 4.5409375,
+          "duration": 0.23803125
+        },
+        "Backslash": {
+          "offset": 6.21346875,
+          "duration": 0.22496875
+        },
+        "Comma": {
+          "offset": 5.50784375,
+          "duration": 0.22859375
+        },
+        "Slash": {
+          "offset": 3.81428125,
+          "duration": 0.23221875
+        },
+        "KeyN": {
+          "offset": 6.4484375,
+          "duration": 0.17415625
+        },
+        "KeyM": {
+          "offset": 6.63259375,
+          "duration": 0.14909375
+        },
+        "Period": {
+          "offset": 4.5409375,
+          "duration": 0.23803125
+        },
+        "Tab": {
+          "offset": 6.7916875,
+          "duration": 0.3483125
+        },
+        "Space": {
+          "offset": 7.15,
+          "duration": 0.209
+        },
+        "Backquote": {
+          "offset": 2.42709375,
+          "duration": 0.20609375
+        },
+        "Backspace": {
+          "offset": 6.21346875,
+          "duration": 0.22496875
+        },
+        "Escape": {
+          "offset": 2.42709375,
+          "duration": 0.20609375
+        },
+        "MetaRight": {
+          "offset": 4.5409375,
+          "duration": 0.23803125
+        },
+        "MetaLeft": {
+          "offset": 2.42709375,
+          "duration": 0.20609375
+        },
+        "ShiftLeft": {
+          "offset": 7.369,
+          "duration": 0.23365625
+        },
+        "CapsLock": {
+          "offset": 7.61265625,
+          "duration": 0.3483125
+        },
+        "AltLeft": {
+          "offset": 2.88540625,
+          "duration": 0.201
+        },
+        "ControlLeft": {
+          "offset": 6.7916875,
+          "duration": 0.3483125
+        },
+        "ShiftRight": {
+          "offset": 7.369,
+          "duration": 0.23365625
+        },
+        "AltRight": {
+          "offset": 5.02196875,
+          "duration": 0.23221875
+        },
+        "ControlRight": {
+          "offset": 6.21346875,
+          "duration": 0.22496875
+        },
+        "Fn": {
+          "offset": 0.8919375,
+          "duration": 0.190125
+        },
+        "NumpadDecimal": {
+          "offset": 4.5409375,
+          "duration": 0.23803125
+        },
+        "NumpadMultiply": {
+          "offset": 4.0565,
+          "duration": 0.23803125
+        },
+        "NumpadAdd": {
+          "offset": 5.2641875,
+          "duration": 0.23365625
+        },
+        "NumLock": {
+          "offset": 4.30453125,
+          "duration": 0.22640625
+        },
+        "NumpadDivide": {
+          "offset": 4.78896875,
+          "duration": 0.223
+        },
+        "NumpadEnter": {
+          "offset": 7.369,
+          "duration": 0.23365625
+        },
+        "NumpadSubtract": {
+          "offset": 5.02196875,
+          "duration": 0.23221875
+        },
+        "Numpad0": {
+          "offset": 7.369,
+          "duration": 0.23365625
+        },
+        "Numpad1": {
+          "offset": 2.21896875,
+          "duration": 0.198125
+        },
+        "Numpad2": {
+          "offset": 6.4484375,
+          "duration": 0.17415625
+        },
+        "Numpad3": {
+          "offset": 6.63259375,
+          "duration": 0.14909375
+        },
+        "Numpad4": {
+          "offset": 0.8919375,
+          "duration": 0.190125
+        },
+        "Numpad5": {
+          "offset": 5.7464375,
+          "duration": 0.23221875
+        },
+        "Numpad6": {
+          "offset": 5.98865625,
+          "duration": 0.2148125
+        },
+        "Numpad7": {
+          "offset": 3.35021875,
+          "duration": 0.20025
+        },
+        "Numpad8": {
+          "offset": 4.30453125,
+          "duration": 0.22640625
+        },
+        "Numpad9": {
+          "offset": 4.78896875,
+          "duration": 0.223
+        },
+        "F5": {
+          "offset": 3.56046875,
+          "duration": 0.2438125
+        },
+        "F6": {
+          "offset": 3.35021875,
+          "duration": 0.20025
+        },
+        "F7": {
+          "offset": 4.30453125,
+          "duration": 0.22640625
+        },
+        "F3": {
+          "offset": 2.88540625,
+          "duration": 0.201
+        },
+        "F8": {
+          "offset": 4.78896875,
+          "duration": 0.223
+        },
+        "F9": {
+          "offset": 4.0565,
+          "duration": 0.23803125
+        },
+        "F11": {
+          "offset": 3.81428125,
+          "duration": 0.23221875
+        },
+        "F10": {
+          "offset": 5.02196875,
+          "duration": 0.23221875
+        },
+        "F12": {
+          "offset": 3.81428125,
+          "duration": 0.23221875
+        },
+        "Insert": {
+          "offset": 0.8919375,
+          "duration": 0.190125
+        },
+        "Home": {
+          "offset": 0.8919375,
+          "duration": 0.190125
+        },
+        "PageUp": {
+          "offset": 5.98865625,
+          "duration": 0.2148125
+        },
+        "Delete": {
+          "offset": 2.21896875,
+          "duration": 0.198125
+        },
+        "F4": {
+          "offset": 3.09640625,
+          "duration": 0.2438125
+        },
+        "End": {
+          "offset": 6.4484375,
+          "duration": 0.17415625
+        },
+        "F2": {
+          "offset": 2.88540625,
+          "duration": 0.201
+        },
+        "PageDown": {
+          "offset": 6.63259375,
+          "duration": 0.14909375
+        },
+        "F1": {
+          "offset": 2.6431875,
+          "duration": 0.23221875
+        },
+        "ArrowLeft": {
+          "offset": 1.7896875,
+          "duration": 0.21625
+        },
+        "ArrowRight": {
+          "offset": 2.21896875,
+          "duration": 0.198125
+        },
+        "ArrowDown": {
+          "offset": 2.0159375,
+          "duration": 0.19303125
+        },
+        "ArrowUp": {
+          "offset": 1.0920625,
+          "duration": 0.209
+        }
+      }
+    },
+    "brown": {
+      "file": "brown.wav",
+      "keys": {
+        "KeyA": {
+          "offset": 0.0,
+          "duration": 0.198
+        },
+        "KeyS": {
+          "offset": 0.208,
+          "duration": 0.178
+        },
+        "KeyD": {
+          "offset": 0.396,
+          "duration": 0.187
+        },
+        "KeyF": {
+          "offset": 0.593,
+          "duration": 0.179
+        },
+        "KeyH": {
+          "offset": 0.782,
+          "duration": 0.192
+        },
+        "KeyG": {
+          "offset": 0.984,
+          "duration": 0.185
+        },
+        "KeyZ": {
+          "offset": 1.179,
+          "duration": 0.167
+        },
+        "KeyX": {
+          "offset": 1.356,
+          "duration": 0.184
+        },
+        "KeyC": {
+          "offset": 1.55,
+          "duration": 0.204
+        },
+        "KeyV": {
+          "offset": 1.55,
+          "duration": 0.204
+        },
+        "KeyB": {
+          "offset": 1.764,
+          "duration": 0.179
+        },
+        "KeyQ": {
+          "offset": 1.953,
+          "duration": 0.15
+        },
+        "KeyW": {
+          "offset": 2.113,
+          "duration": 0.176
+        },
+        "KeyE": {
+          "offset": 2.299,
+          "duration": 0.19
+        },
+        "KeyR": {
+          "offset": 2.499,
+          "duration": 0.185
+        },
+        "KeyY": {
+          "offset": 2.694,
+          "duration": 0.173
+        },
+        "KeyT": {
+          "offset": 2.877,
+          "duration": 0.196
+        },
+        "Digit1": {
+          "offset": 3.083,
+          "duration": 0.185
+        },
+        "Digit2": {
+          "offset": 3.278,
+          "duration": 0.187
+        },
+        "Digit3": {
+          "offset": 3.475,
+          "duration": 0.194
+        },
+        "Digit4": {
+          "offset": 3.679,
+          "duration": 0.196
+        },
+        "Digit6": {
+          "offset": 3.885,
+          "duration": 0.18
+        },
+        "Digit5": {
+          "offset": 4.075,
+          "duration": 0.194
+        },
+        "Equal": {
+          "offset": 4.279,
+          "duration": 0.187
+        },
+        "Digit9": {
+          "offset": 4.476,
+          "duration": 0.197
+        },
+        "Digit7": {
+          "offset": 4.683,
+          "duration": 0.188
+        },
+        "Minus": {
+          "offset": 4.881,
+          "duration": 0.191
+        },
+        "Digit8": {
+          "offset": 5.082,
+          "duration": 0.2
+        },
+        "Digit0": {
+          "offset": 5.292,
+          "duration": 0.194
+        },
+        "BracketRight": {
+          "offset": 5.496,
+          "duration": 0.175
+        },
+        "KeyO": {
+          "offset": 5.681,
+          "duration": 0.178
+        },
+        "KeyU": {
+          "offset": 5.869,
+          "duration": 0.19
+        },
+        "BracketLeft": {
+          "offset": 6.069,
+          "duration": 0.171
+        },
+        "KeyI": {
+          "offset": 6.25,
+          "duration": 0.2
+        },
+        "KeyP": {
+          "offset": 6.46,
+          "duration": 0.197
+        },
+        "Enter": {
+          "offset": 6.667,
+          "duration": 0.181
+        },
+        "KeyL": {
+          "offset": 6.858,
+          "duration": 0.183
+        },
+        "KeyJ": {
+          "offset": 7.051,
+          "duration": 0.188
+        },
+        "Quote": {
+          "offset": 7.249,
+          "duration": 0.18
+        },
+        "KeyK": {
+          "offset": 7.439,
+          "duration": 0.185
+        },
+        "Semicolon": {
+          "offset": 7.634,
+          "duration": 0.182
+        },
+        "Backslash": {
+          "offset": 7.826,
+          "duration": 0.176
+        },
+        "Comma": {
+          "offset": 8.012,
+          "duration": 0.212
+        },
+        "Slash": {
+          "offset": 8.234,
+          "duration": 0.175
+        },
+        "KeyN": {
+          "offset": 8.419,
+          "duration": 0.203
+        },
+        "KeyM": {
+          "offset": 8.632,
+          "duration": 0.184
+        },
+        "Period": {
+          "offset": 8.826,
+          "duration": 0.176
+        },
+        "Tab": {
+          "offset": 9.012,
+          "duration": 0.176
+        },
+        "Space": {
+          "offset": 9.198,
+          "duration": 0.223
+        },
+        "Backquote": {
+          "offset": 9.431,
+          "duration": 0.209
+        },
+        "Backspace": {
+          "offset": 9.65,
+          "duration": 0.184
+        },
+        "Escape": {
+          "offset": 9.844,
+          "duration": 0.199
+        },
+        "MetaRight": {
+          "offset": 10.053,
+          "duration": 0.164
+        },
+        "MetaLeft": {
+          "offset": 10.227,
+          "duration": 0.177
+        },
+        "ShiftLeft": {
+          "offset": 10.414,
+          "duration": 0.18
+        },
+        "CapsLock": {
+          "offset": 10.604,
+          "duration": 0.181
+        },
+        "AltLeft": {
+          "offset": 10.795,
+          "duration": 0.175
+        },
+        "ControlLeft": {
+          "offset": 10.98,
+          "duration": 0.182
+        },
+        "ShiftRight": {
+          "offset": 11.172,
+          "duration": 0.184
+        },
+        "AltRight": {
+          "offset": 11.366,
+          "duration": 0.157
+        },
+        "ControlRight": {
+          "offset": 11.533,
+          "duration": 0.182
+        },
+        "Fn": {
+          "offset": 11.725,
+          "duration": 0.181
+        },
+        "NumpadDecimal": {
+          "offset": 11.916,
+          "duration": 0.174
+        },
+        "NumpadMultiply": {
+          "offset": 12.1,
+          "duration": 0.168
+        },
+        "NumpadAdd": {
+          "offset": 9.65,
+          "duration": 0.184
+        },
+        "NumLock": {
+          "offset": 12.278,
+          "duration": 0.177
+        },
+        "NumpadDivide": {
+          "offset": 12.465,
+          "duration": 0.178
+        },
+        "NumpadEnter": {
+          "offset": 6.667,
+          "duration": 0.181
+        },
+        "NumpadSubtract": {
+          "offset": 4.881,
+          "duration": 0.191
+        },
+        "Numpad0": {
+          "offset": 11.172,
+          "duration": 0.184
+        },
+        "Numpad1": {
+          "offset": 12.653,
+          "duration": 0.163
+        },
+        "Numpad2": {
+          "offset": 12.826,
+          "duration": 0.17
+        },
+        "Numpad3": {
+          "offset": 13.006,
+          "duration": 0.16
+        },
+        "Numpad4": {
+          "offset": 13.176,
+          "duration": 0.185
+        },
+        "Numpad5": {
+          "offset": 13.371,
+          "duration": 0.187
+        },
+        "Numpad6": {
+          "offset": 13.568,
+          "duration": 0.151
+        },
+        "Numpad7": {
+          "offset": 11.725,
+          "duration": 0.181
+        },
+        "Numpad8": {
+          "offset": 13.729,
+          "duration": 0.196
+        },
+        "Numpad9": {
+          "offset": 13.935,
+          "duration": 0.169
+        },
+        "F5": {
+          "offset": 14.114,
+          "duration": 0.174
+        },
+        "F6": {
+          "offset": 14.298,
+          "duration": 0.187
+        },
+        "F7": {
+          "offset": 14.495,
+          "duration": 0.2
+        },
+        "F3": {
+          "offset": 14.705,
+          "duration": 0.187
+        },
+        "F8": {
+          "offset": 14.902,
+          "duration": 0.187
+        },
+        "F9": {
+          "offset": 15.099,
+          "duration": 0.198
+        },
+        "F11": {
+          "offset": 15.307,
+          "duration": 0.196
+        },
+        "F10": {
+          "offset": 15.513,
+          "duration": 0.191
+        },
+        "F12": {
+          "offset": 15.714,
+          "duration": 0.193
+        },
+        "Insert": {
+          "offset": 11.725,
+          "duration": 0.181
+        },
+        "Home": {
+          "offset": 13.729,
+          "duration": 0.196
+        },
+        "PageUp": {
+          "offset": 13.935,
+          "duration": 0.169
+        },
+        "Delete": {
+          "offset": 13.176,
+          "duration": 0.185
+        },
+        "F4": {
+          "offset": 15.917,
+          "duration": 0.183
+        },
+        "End": {
+          "offset": 13.371,
+          "duration": 0.187
+        },
+        "F2": {
+          "offset": 16.11,
+          "duration": 0.18
+        },
+        "PageDown": {
+          "offset": 13.568,
+          "duration": 0.151
+        },
+        "F1": {
+          "offset": 16.3,
+          "duration": 0.189
+        },
+        "ArrowLeft": {
+          "offset": 12.653,
+          "duration": 0.163
+        },
+        "ArrowRight": {
+          "offset": 13.006,
+          "duration": 0.16
+        },
+        "ArrowDown": {
+          "offset": 12.826,
+          "duration": 0.17
+        },
+        "ArrowUp": {
+          "offset": 11.916,
+          "duration": 0.174
+        }
+      }
+    },
+    "blue": {
+      "file": "blue.wav",
+      "keys": {
+        "KeyA": {
+          "offset": 0.0,
+          "duration": 0.164
+        },
+        "KeyS": {
+          "offset": 0.174,
+          "duration": 0.171
+        },
+        "KeyD": {
+          "offset": 0.355,
+          "duration": 0.163
+        },
+        "KeyF": {
+          "offset": 0.528,
+          "duration": 0.208
+        },
+        "KeyH": {
+          "offset": 0.746,
+          "duration": 0.186
+        },
+        "KeyG": {
+          "offset": 0.942,
+          "duration": 0.172
+        },
+        "KeyZ": {
+          "offset": 1.124,
+          "duration": 0.204
+        },
+        "KeyX": {
+          "offset": 1.338,
+          "duration": 0.165
+        },
+        "KeyC": {
+          "offset": 1.513,
+          "duration": 0.164
+        },
+        "KeyV": {
+          "offset": 1.687,
+          "duration": 0.181
+        },
+        "KeyB": {
+          "offset": 1.878,
+          "duration": 0.179
+        },
+        "KeyQ": {
+          "offset": 2.067,
+          "duration": 0.207
+        },
+        "KeyW": {
+          "offset": 2.284,
+          "duration": 0.183
+        },
+        "KeyE": {
+          "offset": 2.477,
+          "duration": 0.192
+        },
+        "KeyR": {
+          "offset": 2.679,
+          "duration": 0.186
+        },
+        "KeyY": {
+          "offset": 2.875,
+          "duration": 0.185
+        },
+        "KeyT": {
+          "offset": 3.07,
+          "duration": 0.198
+        },
+        "Digit1": {
+          "offset": 3.278,
+          "duration": 0.197
+        },
+        "Digit2": {
+          "offset": 3.485,
+          "duration": 0.196
+        },
+        "Digit3": {
+          "offset": 3.691,
+          "duration": 0.198
+        },
+        "Digit4": {
+          "offset": 3.899,
+          "duration": 0.185
+        },
+        "Digit6": {
+          "offset": 4.094,
+          "duration": 0.188
+        },
+        "Digit5": {
+          "offset": 4.292,
+          "duration": 0.196
+        },
+        "Equal": {
+          "offset": 4.498,
+          "duration": 0.182
+        },
+        "Digit9": {
+          "offset": 4.69,
+          "duration": 0.188
+        },
+        "Digit7": {
+          "offset": 4.888,
+          "duration": 0.187
+        },
+        "Minus": {
+          "offset": 5.085,
+          "duration": 0.2
+        },
+        "Digit8": {
+          "offset": 5.295,
+          "duration": 0.197
+        },
+        "Digit0": {
+          "offset": 5.502,
+          "duration": 0.18
+        },
+        "BracketRight": {
+          "offset": 5.692,
+          "duration": 0.172
+        },
+        "KeyO": {
+          "offset": 5.874,
+          "duration": 0.212
+        },
+        "KeyU": {
+          "offset": 6.096,
+          "duration": 0.194
+        },
+        "BracketLeft": {
+          "offset": 6.3,
+          "duration": 0.187
+        },
+        "KeyI": {
+          "offset": 6.497,
+          "duration": 0.179
+        },
+        "KeyP": {
+          "offset": 6.686,
+          "duration": 0.181
+        },
+        "Enter": {
+          "offset": 6.877,
+          "duration": 0.204
+        },
+        "KeyL": {
+          "offset": 7.091,
+          "duration": 0.172
+        },
+        "KeyJ": {
+          "offset": 7.273,
+          "duration": 0.174
+        },
+        "Quote": {
+          "offset": 7.457,
+          "duration": 0.166
+        },
+        "KeyK": {
+          "offset": 7.091,
+          "duration": 0.172
+        },
+        "Semicolon": {
+          "offset": 7.633,
+          "duration": 0.191
+        },
+        "Backslash": {
+          "offset": 7.834,
+          "duration": 0.184
+        },
+        "Comma": {
+          "offset": 8.028,
+          "duration": 0.172
+        },
+        "Slash": {
+          "offset": 8.21,
+          "duration": 0.17
+        },
+        "KeyN": {
+          "offset": 8.39,
+          "duration": 0.163
+        },
+        "KeyM": {
+          "offset": 8.563,
+          "duration": 0.171
+        },
+        "Period": {
+          "offset": 8.744,
+          "duration": 0.152
+        },
+        "Tab": {
+          "offset": 8.906,
+          "duration": 0.191
+        },
+        "Space": {
+          "offset": 9.107,
+          "duration": 0.23
+        },
+        "Backquote": {
+          "offset": 9.347,
+          "duration": 0.183
+        },
+        "Backspace": {
+          "offset": 9.54,
+          "duration": 0.23
+        },
+        "Escape": {
+          "offset": 9.78,
+          "duration": 0.192
+        },
+        "MetaRight": {
+          "offset": 9.982,
+          "duration": 0.174
+        },
+        "MetaLeft": {
+          "offset": 10.166,
+          "duration": 0.155
+        },
+        "ShiftLeft": {
+          "offset": 10.331,
+          "duration": 0.197
+        },
+        "CapsLock": {
+          "offset": 10.538,
+          "duration": 0.191
+        },
+        "AltLeft": {
+          "offset": 10.739,
+          "duration": 0.192
+        },
+        "ControlLeft": {
+          "offset": 10.941,
+          "duration": 0.172
+        },
+        "ShiftRight": {
+          "offset": 11.123,
+          "duration": 0.176
+        },
+        "AltRight": {
+          "offset": 11.309,
+          "duration": 0.202
+        },
+        "ControlRight": {
+          "offset": 11.521,
+          "duration": 0.188
+        },
+        "Fn": {
+          "offset": 11.719,
+          "duration": 0.175
+        },
+        "NumpadDecimal": {
+          "offset": 11.904,
+          "duration": 0.174
+        },
+        "NumpadMultiply": {
+          "offset": 12.088,
+          "duration": 0.193
+        },
+        "NumpadAdd": {
+          "offset": 9.54,
+          "duration": 0.23
+        },
+        "NumLock": {
+          "offset": 12.291,
+          "duration": 0.221
+        },
+        "NumpadDivide": {
+          "offset": 12.522,
+          "duration": 0.222
+        },
+        "NumpadEnter": {
+          "offset": 6.877,
+          "duration": 0.204
+        },
+        "NumpadSubtract": {
+          "offset": 5.085,
+          "duration": 0.2
+        },
+        "Numpad0": {
+          "offset": 11.123,
+          "duration": 0.176
+        },
+        "Numpad1": {
+          "offset": 12.754,
+          "duration": 0.178
+        },
+        "Numpad2": {
+          "offset": 12.942,
+          "duration": 0.201
+        },
+        "Numpad3": {
+          "offset": 13.153,
+          "duration": 0.201
+        },
+        "Numpad4": {
+          "offset": 13.364,
+          "duration": 0.177
+        },
+        "Numpad5": {
+          "offset": 13.551,
+          "duration": 0.19
+        },
+        "Numpad6": {
+          "offset": 13.751,
+          "duration": 0.169
+        },
+        "Numpad7": {
+          "offset": 11.719,
+          "duration": 0.175
+        },
+        "Numpad8": {
+          "offset": 13.93,
+          "duration": 0.189
+        },
+        "Numpad9": {
+          "offset": 14.129,
+          "duration": 0.199
+        },
+        "F5": {
+          "offset": 14.338,
+          "duration": 0.168
+        },
+        "F6": {
+          "offset": 14.516,
+          "duration": 0.165
+        },
+        "F7": {
+          "offset": 14.691,
+          "duration": 0.178
+        },
+        "F3": {
+          "offset": 14.879,
+          "duration": 0.182
+        },
+        "F8": {
+          "offset": 15.071,
+          "duration": 0.187
+        },
+        "F9": {
+          "offset": 15.268,
+          "duration": 0.207
+        },
+        "F11": {
+          "offset": 15.485,
+          "duration": 0.175
+        },
+        "F10": {
+          "offset": 15.67,
+          "duration": 0.174
+        },
+        "F12": {
+          "offset": 15.854,
+          "duration": 0.174
+        },
+        "Insert": {
+          "offset": 11.719,
+          "duration": 0.175
+        },
+        "Home": {
+          "offset": 13.93,
+          "duration": 0.189
+        },
+        "PageUp": {
+          "offset": 14.129,
+          "duration": 0.199
+        },
+        "Delete": {
+          "offset": 13.364,
+          "duration": 0.177
+        },
+        "F4": {
+          "offset": 16.038,
+          "duration": 0.188
+        },
+        "End": {
+          "offset": 13.551,
+          "duration": 0.19
+        },
+        "F2": {
+          "offset": 16.236,
+          "duration": 0.204
+        },
+        "PageDown": {
+          "offset": 13.751,
+          "duration": 0.169
+        },
+        "F1": {
+          "offset": 16.45,
+          "duration": 0.185
+        },
+        "ArrowLeft": {
+          "offset": 12.754,
+          "duration": 0.178
+        },
+        "ArrowRight": {
+          "offset": 13.153,
+          "duration": 0.201
+        },
+        "ArrowDown": {
+          "offset": 12.942,
+          "duration": 0.201
+        },
+        "ArrowUp": {
+          "offset": 11.904,
+          "duration": 0.174
+        }
+      }
+    }
+  }
+}

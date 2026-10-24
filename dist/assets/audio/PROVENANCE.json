@@ -1,0 +1,78 @@
+{
+  "repository": "https://github.com/hainguyents13/mechvibes",
+  "revision": "326252a13e7bef4f1c35d08ef0189b5af6f8ba02",
+  "license": "MIT",
+  "processing": "Original mappings; mono downmix and resample to 32000 Hz; near-silence trimming with 2 ms lead/12 ms tail retained; 0.5 ms attack/3 ms tail boundary fades; one gain per pack preserving relative key loudness; 10 ms gaps; PCM16. No pitch shift or synthesis.",
+  "mappingSHA256": "3df0b523142645094be14107086d411bcaf7101957d56784bd08dfcb90e95431",
+  "profiles": {
+    "cream": {
+      "name": "NK Cream (original by Ryan)",
+      "source": "https://raw.githubusercontent.com/hainguyents13/mechvibes/326252a13e7bef4f1c35d08ef0189b5af6f8ba02/src/audio/nk-cream/",
+      "originalSHA256": {
+        "config.json": "cd69f86a3c615674aa5cdd60705bc059b1fab3839d16545604c025fa7221816a",
+        "[.wav": "d3f42a8b92555ca0db586b20ae6a321520dcbf73db6a41e6c3e06722f02431d8",
+        "].wav": "a5d75fabc7d6d53c8c2df91147ca43bec55d02efbdcf59e63a9a21157b75569e",
+        "a.wav": "16f6aed02a5f607652beb1fabeb2db889c940286e5b8f9680e976335f63c4d4d",
+        "b.wav": "97309a4a865d6174727cc94dcf440e0f6714e3a9bce3afa40d5008f2f0747da9",
+        "backspace.wav": "e9f1fe1c641487bff608cf3dca8b5acb8c75835163515e14517c60bb65d1b14f",
+        "c.wav": "2d2895bb975d89d7db1b3e1c2fccc4e7a23c426f26257e6fdc1532eb5107de0f",
+        "caps lock.wav": "9510a9a48607a8efce83b31ac938bc79dda3f95b5bdedc62c21a60b8ebdfcf36",
+        "d.wav": "073ed3b4d33193972829a45af65cf7861ab9a96b765b2cb34e24cd2858c66f11",
+        "e.wav": "621980ab08b5f54391e718076c7d200455d54d022db9c275f24af87f6aba6c72",
+        "enter.wav": "986b002df479032b77e0bf904e906b823a6b272b94d1058c329d5d1b1c33a0c5",
+        "f.wav": "4865ac5e114d1c4be035a8ffb8b4b8c85db8e6813221aa8a961613e7f20bd6ff",
+        "g.wav": "4dd1489fef18d52373d4a00786d4f03c9fea8569b4a1294d3c333da3b2b899c6",
+        "h.wav": "343408e5ce18eb1b2f1b62831399a28d7d13c60fc798e9b7ce3a6ad52efc93ba",
+        "i.wav": "d1f30b7be773820e1ef106309972ac3c7222c6b3a5379a6d54d84638c9865329",
+        "j.wav": "9c97bd0eddd161d3546b010f46487c39c38754a77c01cb7a2c4c5e4499eaa396",
+        "k.wav": "1de19d4848ac5cf95bfd490581b76c4083ed2f3f2c83dad69c87e195292f2649",
+        "l.wav": "b65cb53b0078476e5ef9508e69894bed65a38a2e451f0f21a2b4a4662020cc95",
+        "m.wav": "c521b053daeb2d390083c4b2455cb3f760371d5570339e76c2855c62ca598841",
+        "n.wav": "448ccf397763890c08f8cc00c09fd1b733aa19a7dbd46b8ece5673b9caaabac0",
+        "o.wav": "d3f42a8b92555ca0db586b20ae6a321520dcbf73db6a41e6c3e06722f02431d8",
+        "p.wav": "a5d75fabc7d6d53c8c2df91147ca43bec55d02efbdcf59e63a9a21157b75569e",
+        "q.wav": "afcb8635b3051eae3f02492fffbfb3d98bba25218550836e8d68c7879c43a7b5",
+        "r.wav": "a9e5cacd4d34aaa66fd17bc92380f2e6a65381286137969f754186813c7478be",
+        "s.wav": "2ffd4b3efe7a0704ee9baf8d05831f3f9ce49b245f2519bd98c33a0f9ef87fd8",
+        "shift.wav": "986b002df479032b77e0bf904e906b823a6b272b94d1058c329d5d1b1c33a0c5",
+        "space.wav": "5b243a471e2e7d294a6bf30c53417abb63edb1b1cc8c9b2c4d098c1bed169a53",
+        "t.wav": "d66128202910f5f972e76967160cc4e49bd3a3fc3972d8229932baea955f5e00",
+        "tab.wav": "9510a9a48607a8efce83b31ac938bc79dda3f95b5bdedc62c21a60b8ebdfcf36",
+        "u.wav": "f1a80d1973de3c5b0d72ca302006fd9dec14d380fe8fa0b1689394284676925a",
+        "v.wav": "48a3e2ca3fd5e6a115124da6066877e9b223fa57429b4a769cfb8d4f3cb47e78",
+        "w.wav": "b7e53974136b221256efdf07ae8ef817c8abed6fad71955cdcfeb28e587a7db1",
+        "x.wav": "4b167168476e42f7585258dc0e77e87f719ded427970ea4a708df18dc711fd2e",
+        "y.wav": "4b6a1dadee30ad98ae50353a6e3be233eb6f44828bb853394b099605d6a6106a",
+        "z.wav": "4ae50700b87ff29456f5177c52d7f386a2d757aa96ed21e6c4d6f8cfbcfd8a0f"
+      },
+      "outputSHA256": "c8bca971836acda4d08758fddbeec4fbc58e918ddb9c71d5d1b27ef4bc2ca516",
+      "gain": 2.3290685347754216,
+      "distinctRecordings": 34,
+      "mappedKeys": 101
+    },
+    "brown": {
+      "name": "CherryMX Brown - PBT keycaps",
+      "source": "https://raw.githubusercontent.com/hainguyents13/mechvibes/326252a13e7bef4f1c35d08ef0189b5af6f8ba02/src/audio/cherrymx-brown-pbt/",
+      "originalSHA256": {
+        "config.json": "424e3f7583f65341d1dc03251ff5f6bd6d42f03e0c10f28845b7fb4484cc5823",
+        "sound.ogg": "10390a4325fe218b005c509cac28c90bdd21c16bfcc303fe57d51d2588efd047"
+      },
+      "outputSHA256": "9a3dfa12e857e5eb747ee8d92ec0f77a3349691589a7eefabd393a6710b8a4fa",
+      "gain": 0.6567764471431947,
+      "distinctRecordings": 85,
+      "mappedKeys": 101
+    },
+    "blue": {
+      "name": "CherryMX Blue - PBT keycaps",
+      "source": "https://raw.githubusercontent.com/hainguyents13/mechvibes/326252a13e7bef4f1c35d08ef0189b5af6f8ba02/src/audio/cherrymx-blue-pbt/",
+      "originalSHA256": {
+        "config.json": "c963169861bab6d630b1cf13d6aeaefb7feec6b8fb762fff75284bdf4184b78a",
+        "sound.ogg": "68d46de5a091e4d6daf468327c87e3e75494e645dacc8d55418d5151aaf84349"
+      },
+      "outputSHA256": "e8ebbe1041eef3fff19e1bbc47257ac11d0e8f1db7cfaa6da13e8ed66d504aa7",
+      "gain": 0.5393902454623977,
+      "distinctRecordings": 85,
+      "mappedKeys": 101
+    }
+  }
+}
