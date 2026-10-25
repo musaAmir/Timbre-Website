@@ -1,7 +1,9 @@
 # Timbre website
 
-A buildless landing page with a playable keyboard and real recorded switch sounds.
+The website for Timbre, a native Mac app for real mechanical keyboard sounds.
 
-Preview: `python3 -m http.server 4173 --directory dist`
+[Visit the website](https://musaamir.github.io/Timbre-Website/)
 
-Source: HTML, CSS, and JavaScript in `dist/`. Audio provenance and license are in `dist/assets/audio/`; the reproducible exporter is in `scripts/`.
+Preview locally: `python3 -m http.server 4173 --directory dist`
+
+Pushes to `main` deploy `dist/` to GitHub Pages automatically. Audio credits and license are in `dist/assets/audio/`.
